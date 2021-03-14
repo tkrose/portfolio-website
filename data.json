@@ -1,0 +1,171 @@
+{
+  "about": {
+    "name": "Talia Kaplanian",
+    "title": "Computer Science Student @ Boston College",
+    "photo": "https://cdn.glitch.com/714a551e-3dfd-4e27-8c9f-f4e6dd091ec4%2Ftalia_orange_portrait.JPG?v=1612391709984",
+    "resume": "https://cdn.glitch.com/714a551e-3dfd-4e27-8c9f-f4e6dd091ec4%2FResume_12.29.20.pdf?v=1612394405974",
+    "email": "mailto:talia.kaplanian@bc.edu",
+    "linkedin": "https://www.linkedin.com/in/talia-kaplanian/",
+    "github": "https://github.com/tkrose",
+    "facebook": "https://www.facebook.com/talia.n.kaplanian/",
+    "instagram": "https://www.instagram.com/tkrose25/",
+    "description": "Talia Kaplanian is a third-year student at Boston College studying Computer Science with a minor in Biochemistry. She currently works as a Computational Biology Research Assistant at the Meyer Laboratory of Boston College and is very involved on campus with the Computer Science Society, Engineering Healthcare Innovations, Girls Who Code, the University Chorale of Boston College, and the Chamber Singers. She spends her free time singing in the choir, baking lots of fun desserts, playing video games and reading anything that she can get her hands on!"
+  },
+  
+  "news": [
+        {
+          "month": "January",
+          "year": "2020",
+          "message": "Attended Endeavor at Boston College",
+          "link": "https://www.bc.edu/bc-web/offices/student-affairs/sites/careers/programs-events/endeavor.html"
+        },
+        {
+          "month": "February",
+          "year": "2020",
+          "message": "Traveled to Austria and the Czech Republic with the University Chorale of Boston College",
+          "link": "https://choralebc.com/"
+        },
+        {
+          "month": "March",
+          "year": "2020",
+          "message": "Sent home from college due to the coronavirus pandemic",
+          "link": ""
+        },
+        {
+          "month": "April",
+          "year": "2020",
+          "message": "Turned 19 years old",
+          "link": ""
+        },
+        {
+          "month": "May",
+          "year": "2020",
+          "message": "Participated in Eric Whitacre's Virtual Choir 6",
+          "link": "https://youtu.be/InULYfJHKI0"
+        },
+        {
+          "month": "June",
+          "year": "2020",
+          "message": "Published a Medium article about Animal Crossing and its significance during the coronavirus pandemic",
+          "link": "https://medium.com/@ttkaplanian/what-animal-crossing-teaches-us-about-privilege-and-american-inequality-790fb42791cc"
+        },
+        {
+          "month": "July",
+          "year": "2020",
+          "message": "Homemade burgers!",
+          "link": ""
+        },
+        {
+          "month": "August",
+          "year": "2020",
+          "message": "Participated in the first Boston College Chorale virtual choir performance of the 2020/2021 year",
+          "link": "https://youtu.be/thTRTf5e70I"
+        },
+        {
+          "month": "September",
+          "year": "2020",
+          "message": "Presented at DevConf.US",
+          "link": "https://youtu.be/SzbasWjomX0"
+        },
+        {
+          "month": "October",
+          "year": "2020",
+          "message": "Accepted Software Engineering Internship offer from Converse",
+          "link": "https://www.converse.com/"
+        },
+        {
+          "month": "November",
+          "year": "2020",
+          "message": "Successfully hosted Hack the Heights 5 virtually",
+          "link": "http://hacktheheights.org/"
+        },
+        {
+          "month": "December",
+          "year": "2020",
+          "message": "Completed last day of Quality Engineering Internship at Red Hat",
+          "link": "https://www.linkedin.com/posts/talia-kaplanian_opensourcesoftware-technology-internship-activity-6749782465130356736-hzvk"
+        },
+        {
+          "month": "January",
+          "year": "2021",
+          "message": "Finished rewatching the Marvel Cinematic Universe",
+          "link": "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe"
+        },
+        {
+          "month": "February",
+          "year": "2021",
+          "message": "Began creating a personal website",
+          "link": ""
+        }
+  ],
+  
+  "projects": [
+    {
+      "id": "riboswitches",
+      "title": "Computational Biology Research Assistant",
+      "source": "Work Experience",
+      "organization": "Meyer Laboratory of Boston College",
+      "organizationLink": "https://meyerlabrna.org/",
+      "image": "https://cdn.glitch.com/714a551e-3dfd-4e27-8c9f-f4e6dd091ec4%2FRF00059.jpg?v=1612406019622",
+      "tags":["Research", "Biology", "CS"],
+      "materials": {
+          "label": "Meyer Lab website",
+          "path": "https://meyerlabrna.org/"
+        },
+      "teaser": "This research set at the Meyer Laboratory of Boston College investigates riboswitch occurrence and their translational or transcriptional properties among gram positive or negative bacterial organisms.",
+      "sectionTitle": ["Purpose", "Research Design"],
+      "description": ["The driving force of this research is to examine translational or transcriptional properties and patterns of riboswitches among gram positive or negative organisms in order to provide unprecedented, substantive research behind this. To achieve this goal, it is necessary to first find where riboswitches occur in bacterial genomes and to identify whether they are translational or transcriptional. Following this, it is possible to determine which riboswitches occur in gram negative or gram positive organisms. Gram negative and gram positive bacteria do not show a significant difference in the abundance of transcriptional terminators. The experiment that is to be conducted will either accept or reject the null hypothesis.",
+      "In order to complete this research, tools like Infernal that include cmbuild, cmcalibrate, cmsearch and like functions will be necessary to build calibrated covariance models from the stockholm files of each bacterial genome and to search the bacterial genomes for riboswitches using the outputted fasta files. These stockholm files, which include the sequence and structure of the RNA, will be found on the Rfam database. Additionally, small Python scripts will be written and used to parse through and clean data sets. Finally, the last crucial tool to the research is RNIE, a perl script that identifies the location of transcriptional terminators in the bacterial genomes and outputs the annotated genome data with terminator locations. Given that the RNIE perl script is slightly outdated, it may be necessary to create a new version in Python which would extend the timeline of this research by about one month."]
+    },
+    {
+      "id": "ehi-hackathon",
+      "title": "Heights4Health Director",
+      "source": "Extracurricular",
+      "organization": "Engineering Healthcare Innovations",
+      "organizationLink": "http://engineeringhealthcareinnovations.com/",
+      "image": "https://cdn.glitch.com/714a551e-3dfd-4e27-8c9f-f4e6dd091ec4%2Fh4h-logo.PNG?v=1612408068210",
+      "tags":["Hackathon", "CS", "Biology"],
+      "materials": {
+          "label": "Heights4Health website",
+          "path": "http://engineeringhealthcareinnovations.com/heights4health/"
+        },
+      "teaser": "Heights4Health is a new hackathon coming to Boston College and the entire nation. This interdisciplinary global health hackathon encourages undergraduates of all backgrounds and expertise to come together to develop multidimensional, innovative, and sustainable solutions to issues impacting underrepresented communities all around the world!",
+      "sectionTitle": ["What is it?", "This Year"],
+      "description": ["Heights4Health is an annual global health challenge focused on bringing together undergraduate students of all academic backgrounds and experiences from Jesuit Catholic universities across the nation to research and devise complex and impactful solutions to global health issues affecting underrepresented communities all over the world. Over 48 hours, students are invited to attend several skill-building workshops, keynotes, and various programs to cultivate a collaborative and productive learning environment.",
+            "This year, Heights4Health will challenge participants to address the contamination and toxicity of natural resources. From microplastic buildup in our oceans to toxins aggregating in the atmosphere, our planet has endured permanent and significant damage to its ecosystems. In acknowledgement of these effects, we invite participants and partners to combine the Jesuit values of compassion and sacrifice with modern advancements and insights within the STEM field to create a launching pad for innovative, meaningful, and impactful solutions."]
+    },
+    {
+      "id": "hth-hackathon",
+      "title": "Hack the Heights Director",
+      "source": "Extracurricular",
+      "organization": "Boston College Computer Science Society",
+      "organizationLink": "https://bccss.io/",
+      "image": "https://cdn.glitch.com/714a551e-3dfd-4e27-8c9f-f4e6dd091ec4%2Fhth5-logo.jpg?v=1612407966494",
+      "tags":["Hackathon", "CS", ""],
+      "materials": {
+          "label": "Hack the Heights 5 website",
+          "path": "http://hacktheheights.org/"
+        },
+      "teaser": "Hack the Heights is Boston College's annual hackthon hosted by the Computer Science Society. This event sees participants from all over the Boston area and welcomes students of all levels of expertise!",
+      "sectionTitle": ["What is it?", ""],
+      "description": ["Hack the Heights is an organization founded to create opportunities for students interested in STEM at Boston College. We create spaces that allow students to experiment with the concepts they learn in class and apply them to real-world solutions. Each year we serve over 200+ hackers with hackathons, workshops, and community-building events. Our flagship event combines these three kinds of events into a weekend of collaborative project building, ideation, and skill acquisition. This year, we were proud to have presented our very frst virtual hackathon!", ""]
+    },
+    {
+      "id": "fashion-project",
+      "title": "Sustainable Fashion Project",
+      "source": "Extracurricular",
+      "organization": "",
+      "organizationLink": "",
+      "image": "",
+      "tags":["Other", "", ""],
+      "materials": {
+          "label": "Mood board",
+          "path": "https://www.pinterest.com/tkrose25/archive-1/"
+        },
+      "teaser": "A new generation of business is coming... A generation where companies are open, honest, ethical, sustainable, and have the better interest of the people and world at heart. This project explores this ideal business model in hopes of determining its success and impact.",
+      "sectionTitle": ["The Idea", "Key Brand Features"],
+      "description": ["A new generation fashion brand that offers sustainably and responsibly made pieces at affordable prices. With fast fashion reigning over pop culture and low-income markets, it’s impossible to find a brand that uses sustainable materials and practices to provide a good-looking product for reasonable prices. This brand has two focal points: attractive clothing and environmentally sound practices with the use of second-hand and repurposed materials</strong> as well as all-natural dyes.", 
+                      "This brand strives to combine sustainable materials, responsible, ethical, and circular manufacturing, net-zero carbon emissions, modern product aesthetic, and honest and open brand culture."]
+    }
+  ]
+}
